@@ -10,6 +10,32 @@
 
 @interface Timer_WorkingViewController : UIViewController {
     
+    IBOutlet UILabel *timerLabel;
+    IBOutlet UILabel *timesUp;
+    
+    IBOutlet UIButton *startButton;
+    IBOutlet UIButton *pauseButton;
+    
+    IBOutlet UIDatePicker *timerChooser;
+    
+    NSTimer *timer;
+    
 }
+
+@property (nonatomic, retain) UILabel *timerLabel;
+@property (nonatomic, retain) UILabel *timesUp;
+
+@property (nonatomic, retain) UIButton *startButton;
+@property (nonatomic, retain) UIButton *pauseButton;
+
+@property (nonatomic, retain) UIDatePicker *timerChooser;
+
+-(IBAction)start;
+-(IBAction)stop;
+
+-(void)showActivity;
+
+-(IBAction)showChosenTime:(id)sender;
+
 
 @end
