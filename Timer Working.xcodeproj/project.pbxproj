@@ -39,20 +39,20 @@
 		C8E0C42413BC400F00978B62 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		C8E0C42613BC400F00978B62 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		C8E0C42813BC400F00978B62 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		C8E0C42C13BC400F00978B62 /* Timer Working-Info.plist */ = {isa = PBXFileReference; path = "Timer Working-Info.plist"; sourceTree = "<group>"; };
+		C8E0C42C13BC400F00978B62 /* Timer Working-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Timer Working-Info.plist"; sourceTree = "<group>"; };
 		C8E0C42E13BC400F00978B62 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		C8E0C43013BC400F00978B62 /* Timer Working-Prefix.pch */ = {isa = PBXFileReference; path = "Timer Working-Prefix.pch"; sourceTree = "<group>"; };
+		C8E0C43013BC400F00978B62 /* Timer Working-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Timer Working-Prefix.pch"; sourceTree = "<group>"; };
 		C8E0C43113BC400F00978B62 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		C8E0C43313BC400F00978B62 /* Timer_WorkingAppDelegate.h */ = {isa = PBXFileReference; path = Timer_WorkingAppDelegate.h; sourceTree = "<group>"; };
+		C8E0C43313BC400F00978B62 /* Timer_WorkingAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Timer_WorkingAppDelegate.h; sourceTree = "<group>"; };
 		C8E0C43413BC400F00978B62 /* Timer_WorkingAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Timer_WorkingAppDelegate.m; sourceTree = "<group>"; };
 		C8E0C43713BC400F00978B62 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
-		C8E0C43913BC400F00978B62 /* Timer_WorkingViewController.h */ = {isa = PBXFileReference; path = Timer_WorkingViewController.h; sourceTree = "<group>"; };
+		C8E0C43913BC400F00978B62 /* Timer_WorkingViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Timer_WorkingViewController.h; sourceTree = "<group>"; };
 		C8E0C43A13BC400F00978B62 /* Timer_WorkingViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Timer_WorkingViewController.m; sourceTree = "<group>"; };
 		C8E0C43D13BC400F00978B62 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/Timer_WorkingViewController.xib; sourceTree = "<group>"; };
 		C8E0C44413BC400F00978B62 /* Timer WorkingTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Timer WorkingTests.octest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		C8E0C44C13BC400F00978B62 /* Timer WorkingTests-Info.plist */ = {isa = PBXFileReference; path = "Timer WorkingTests-Info.plist"; sourceTree = "<group>"; };
+		C8E0C44C13BC400F00978B62 /* Timer WorkingTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Timer WorkingTests-Info.plist"; sourceTree = "<group>"; };
 		C8E0C44E13BC400F00978B62 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		C8E0C45013BC400F00978B62 /* Timer WorkingTests-Prefix.pch */ = {isa = PBXFileReference; path = "Timer WorkingTests-Prefix.pch"; sourceTree = "<group>"; };
+		C8E0C45013BC400F00978B62 /* Timer WorkingTests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Timer WorkingTests-Prefix.pch"; sourceTree = "<group>"; };
 		C8E0C45113BC400F00978B62 /* Timer_WorkingTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Timer_WorkingTests.h; sourceTree = "<group>"; };
 		C8E0C45313BC400F00978B62 /* Timer_WorkingTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Timer_WorkingTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */

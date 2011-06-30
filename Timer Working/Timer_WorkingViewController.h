@@ -9,7 +9,30 @@
 #import <UIKit/UIKit.h>
 
 @interface Timer_WorkingViewController : UIViewController {
+    IBOutlet UILabel *timerLabel;
+    IBOutlet UILabel *timesUp;
+
+    NSTimer *theTimer;
     
+    IBOutlet UIDatePicker *timerChooser;
+    
+    IBOutlet UIButton *startButton;
+    IBOutlet UIButton *stopButton;
 }
+
+@property (nonatomic, retain) UILabel *timerLabel;
+@property (nonatomic, retain) UILabel *timesUp;
+
+@property (nonatomic, retain) UIButton *startButton;
+@property (nonatomic, retain) UIButton *stopButton;
+@property (nonatomic, retain) UIDatePicker *timerChooser;
+
+-(IBAction)start;
+-(IBAction)stop;
+
+-(void)showActivity;
+
+- (IBAction) timerChooserChanged:(id)sender;
+
 
 @end
